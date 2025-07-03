@@ -6,16 +6,48 @@
 .border {
 	background-image: linear-gradient(
 		to right,
-		rgb(11, 30, 101),
+		rgb(10, 57, 228),
 		rgb(177, 206, 244)
 	);
+	background-size: 100%;
+}
+/* set body and height to 100%, otherwise center doesnt work  */
+html {
+	height: 100%;
 }
 body {
+	height: 100%;
+	background-image: url(images/windows_xp_original-wallpaper-3840x2160.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.window {
+	border: red solid 2px;
 	background-color: rgb(192, 192, 192);
+	position: fixed;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.border {
+	padding: 8px;
+	display: flex;
+	align-items: center;
 }
 #error_message {
 	display: flex;
+	justify-content: center;
+	margin: 1rem;
+}
+#error_message div {
+	margin-left: 10px;
 }
 #cancel_btn {
 	background-color: rgb(192, 192, 192);
+	margin: 12px;
+	padding: 8px;
+	margin-left: auto;
 }
