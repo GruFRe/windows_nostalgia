@@ -1,0 +1,21 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: content-box;
+}
+.border {
+	background-image: linear-gradient(
+		to right,
+		rgb(11, 30, 101),
+		rgb(177, 206, 244)
+	);
+}
+body {
+	background-color: rgb(192, 192, 192);
+}
+#error_message {
+	display: flex;
+}
+#cancel_btn {
+	background-color: rgb(192, 192, 192);
+}
