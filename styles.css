@@ -25,17 +25,18 @@ body {
 	align-items: center;
 }
 .window {
-	border: red solid 2px;
 	background-color: rgb(192, 192, 192);
 	position: fixed;
 	display: flex;
 	flex-direction: column;
 	gap: 15px;
+	border-radius: 1px;
 }
 .border {
 	padding: 8px;
 	display: flex;
 	align-items: center;
+	border-radius: 1px;
 }
 #error_message {
 	display: flex;
@@ -50,4 +51,8 @@ body {
 	margin: 12px;
 	padding: 8px;
 	margin-left: auto;
+	border-top: rgb(233, 230, 230) solid 2px;
+	border-left: rgb(233, 230, 230) solid 2px;
+	border-right: rgb(0, 0, 0) solid 2px;
+	border-bottom: rgb(0, 0, 0) solid 2px;
 }
